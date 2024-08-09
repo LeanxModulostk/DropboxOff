@@ -36,6 +36,8 @@ su -c "settings put global dropbox:SYSTEM_LAST_KMSG disabled"
 su -c "settings put global dropbox:system_app_native_crash disabled"
 su -c "settings put global dropbox:SYSTEM_TOMBSTONE disabled"
 su -c "settings put global dropbox:SYSTEM_TOMBSTONE_PROTO disabled"
+su -c "settings put global dropbox:data_app_native_crash disabled"
+su -c "settings put global dropbox:SYSTEM_RESTART disabled"
 
 sleep 69
 
